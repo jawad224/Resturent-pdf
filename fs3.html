@@ -5,231 +5,1283 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <title>FS3</title>
+    <style>
+        /* body{
+            background-image: url(./FS3\ watermark\ .png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 50%;
+        } */
+    </style>
 </head>
 
 <body>
-    <div class="section" style="margin: 30px; padding: 10px; border: 2px solid rgb(153, 153, 153);">
-        <table style="width: 100%;" class="w-100" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 10%; text-align: center; font-size: 45px; font-weight: bold;">FS3</td>
-                <td style="width: 90%; font-weight: bold;">FINAL SETTLEMENT SYSTEM (FSS) </td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 2%; background-color: black; color: white; text-align: center; font-weight: bold;">A</td>
-                <td style="width: 21%; background-color: #CDCCCE; outline: black; font-weight: bold;">FINAL SETTLEMENTSYSTEM (FSS) </td>
-                <td style="width: 70%; font-weight: bold;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="2" cellspacing="0">
-            <tr style="width: 100%;">
-                <td style="width: 50%; outline: 1px solid black;">
-                    <table style="width: 100%;" cellpadding="2" cellspacing="0">
-                        <tr>
-                            <td style="width: 30%; font-weight: bold; padding: 5px; outline: 1px solid black;">Surname</td>
-                            <td style="width: 70%; padding: 5px; border-bottom: 1px solid black; outline: 1px solid black;"></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; font-weight: bold; padding: 5px; outline: 1px solid black;">First Name</td>
-                            <td style="width: 70%; padding: 5px; border-bottom: 1px solid black; outline: 1px solid black;"></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; font-weight: bold; padding: 5px; outline: 1px solid black;">Address <br> <span style="font-size: 13px;">house No.</span> <br> <br> <span style="font-size: 13px;">Street</span> <br> <br> <span style="font-size: 13px;">Locality</span> </td>
-                            <td style="width: 70%; padding: 5px; border-bottom: 1px solid black; outline: 1px solid black;"></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%; font-weight: bold; padding: 5px; outline: 1px solid black;">Postcode <br> <br> Telephone Number </td>
-                            <td style="width: 70%; padding: 5px; border-bottom: 1px solid black; outline: 1px solid black;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                        </tr>
-                    </table>
-                </td>
-                <td style="width: 50%; outline: 1px solid black;">
-                    <table style="width: 100%;" cellpadding="2" cellspacing="0">
-                        <tr>
-                            <td style="width: 100%; font-weight: bold; padding: 5px;">For Year Ended 31 December &nbsp;&nbsp;&nbsp; A1 &nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 100%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute;  text-align: center;">y</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center; ">y</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center; ">y</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; position: absolute; text-align: center;">y</span> </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 100%; font-weight: bold; padding: 5px;">Payee’s ID Card/IT Reg. No.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;&nbsp;A2 &nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 100%; font-weight: bold; padding: 5px;">Payee’s Social Security No.</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;&nbsp;A3 &nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 100%; font-weight: bold; padding: 5px;">Spouse’s ID Card/IT Reg. No</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;&nbsp;A4 &nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 2%; background-color: black; color: white; text-align: center; font-weight: bold;">B</td>
-                <td style="width: 5%; background-color: #CDCCCE; outline: black; font-weight: bold;">PERIOD</td>
-                <td style="width: 90%; font-weight: bold;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%; padding: 5px; outline: 1px solid black;" cellpadding="2" cellspacing="0">
-            <tr>
-                <td style="width: 20%;"></td>
-                <td style="width: 1%;">B1 Form</td>
-                <td style="width: 39%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> </td>
-                <td style="width: 1%;">B1 To</td>
-                <td style="width: 39%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-            </tr>
-            <tr>
-                <td style="width: 20%;"></td>
-                <td style="width: 1%;">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td style="width: 39%;">&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">d</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">d</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">m</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">m</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span> </td>
-                <td style="width: 1%;">&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                <td style="width: 39%;">&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">d</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">d</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">m</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">m</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; position: absolute; text-align: center;">y</span> </td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 2%; background-color: black; color: white; text-align: center; font-weight: bold;">C</td>
-                <td style="width: 15%; background-color: #CDCCCE; outline: black; font-weight: bold;">GROSS EMOLUMENTS</td>
-                <td style="width: 80%; font-weight: bold;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%; padding: 5px; outline: 1px solid black;" cellpadding="2" cellspacing="0">
-            <tr>
-                <td style="width: 50%;">Gross Emoluments (FSS Main or FSS Other applies)</td>
-                <td style="width: 2%;">C1</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;">Breakdown of Fringe Benefits</td>
-            </tr>
-            <tr>
-                <!-- <td style="width: 50%;">Overtime (Eligible for 15% tax deduction)</td> -->
-                <td style="width: 50%;">Gross Emoluments (FSS Part-time method applies)</td>
-                <td style="width: 2%;">C2</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;">Cat1 C5</td>
-                <td style="width: 18%;"><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-            </tr>
-            <tr>
-                <td style="width: 50%;">Fringe Benefits - Excluding Share Options <span style="font-size: 12px;">(Total of Boxes (C5+C6+C7)-C8)</span></td>
-                <!-- <td style="width: 50%;">Director’s Fees</td> -->
-                <td style="width: 2%;">C3</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;">Cat2 C6</td>
-                <td style="width: 18%;"><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <!-- <td style="width: 18%;"></td> -->
-            </tr>
-            <tr>
-                <td style="width: 50%;">Share Options fringe benefits taxed at 15%</td>
-                <td style="width: 2%;">C3a</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;">Cat3 C7</td>
-                <!-- <td style="width: 18%;">Breakdown of Fringe Benefits</td> -->
-                <td style="width: 18%;"><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span><span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-            </tr>
-            <tr>
-                <td style="width: 50%; font-weight: bold;">Total Gross Emoluments and Fringe Benefits</td>
-                <td style="width: 2%;">C4</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="2" cellspacing="0">
-            <tr style="text-align: center; outline: 1px solid black;">
-                <td >Non Taxable Car Crash Allowance (50% of Allowance up to a maximum of €1170)</td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 2%; background-color: black; color: white; text-align: center; font-weight: bold;">D</td>
-                <td style="width: 15%; background-color: #CDCCCE; outline: black; font-weight: bold;">TOTAL DEDUCTIONS</td>
-                <td style="width: 80%; font-weight: bold;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%; padding: 5px; outline: 1px solid black;" cellpadding="2" cellspacing="0">
-            <tr>
-                <td style="width: 50%;">Tax Deductions (FSS Main or FSS Other applies)</td>
-                <td style="width: 2%;">D1</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-            <tr>
-                <td style="width: 50%;">Tax Deductions (FSS Part time metod  applies)</td>
-                <td style="width: 2%;">D2</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-            <tr>
-                <td style="width: 50%;">Tax Arrears Deductions (as per amount on PCU2(A))</td>
-                <td style="width: 2%;">D3</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-            <tr>
-                <td style="width: 50%;">15% tax on Share Options</td>
-                <td style="width: 2%;">D3a</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-            <tr>
-                <td style="width: 50%; font-weight: bold;">Total Tax Deductions</td>
-                <td style="width: 2%;">D4</td>
-                <td style="width: 25%;">&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="width: 2%; height: 3%; position: absolute; outline: 1px solid black;"></span></td>
-                <td style="width: 5%;"></td>
-                <td style="width: 18%;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="2" cellspacing="0">
-            <tr style="text-align: center; outline: 1px solid black;">
-                <td >NB: If part-time tax is less than the relative rate the whole emoluments will be charged at normal rates.</td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="12" cellspacing="0">
-            <tr>
-                <td style="width: 2%; background-color: black; color: white; text-align: center; font-weight: bold;">D</td>
-                <td style="width: 38%; background-color: #CDCCCE; outline: black; font-weight: bold;">SOCIAL SECURITY AND MATERNITY FUND INFORMATION</td>
-                <td style="width: 60%; font-weight: bold;"></td>
-            </tr>
-        </table>
-        <table style="width: 100%;" cellpadding="6" cellspacing="0">
-            <tr>
-                <td style="width: 30%; text-align: center; outline: 1px solid black;">Basic Weekly Wage</td>
-                <td style="width: 30%; text-align: center; outline: 1px solid black;">Social Security Contributions</td>
-                <td style="width: 10%; text-align: center; outline: 1px solid black;">Maternity Fund Contributions</td>
-                <td style="width: 30%; text-align: center; outline: 1px solid black;">Weeks Without Pay</td>
-            </tr>
-            <tr>
-                <td style="width: 30%; outline: 1px solid black;">
-                <table>
-                    <tr>
-                        <td style="width: 5%; text-align: center; outline: 1px solid black;">€</td>
-                        <td style="width: 30%; text-align: center; outline: 1px solid black;">C</td>
-                        <td style="width: 25%; text-align: center; outline: 1px solid black;">Number</td>
-                        <td style="width: 15%; text-align: center; outline: 1px solid black;">Category</td>
-                    </tr>
-                </table>
-                </td> 
-            </tr>
-        </table>
-        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <img width="100%" src="./FS3 MLT ENG-1.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">A
+                </div>
+            </div>
+            <div class="col-md-3 p-0">
+                <div class="p-1" style="background-color: #CDCCCE; font-weight: bold;">FINAL SETTLEMENT SYSTEM (FSS)
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3" style="outline: 1px solid black;">
+                        <div style="width: 30%; font-weight: bold;">Surname
+                        </div>
+                    </div>
+                    <div class="col-md-7" style="outline: 1px solid black;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3" style="font-weight: bold; outline: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">First Name </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">Address</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 13px;">House No.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 13px;">Street</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black; font-size: 13px;">Locality</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">Postcode</div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">Telephone Number</div>
+                        </div>
+                    </div>
+                    <div class="col-md-7" style="outline: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 13px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 13px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 13px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">&nbsp;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="outline: 1px solid black;">
+                        <div class="row p-1">
+                            <div class="col-md-7">For the yearended 31 December</div>
+                            <div class="col-md-1">A1</div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">y</div>
+                                    <div class="col-md-2">y</div>
+                                    <div class="col-md-2">y</div>
+                                    <div class="col-md-2">y</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row p-1">
+                            <div class="col-md-12">Payee’s ID Card/IT Reg. No</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">A2</div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row p-1">
+                            <div class="col-md-12">Payee’s ID Card/IT Reg. No</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">A2</div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row p-1">
+                            <div class="col-md-12">Payee’s ID Card/IT Reg. No</div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-1">A2</div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERIOD -->
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">B
+                </div>
+            </div>
+            <div class="col-md-1 p-0">
+                <div class="p-1" style=" background-color: #CDCCCE; font-weight: bold;">PERIOD</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-11" style="border:1px solid black;">
+                <div class="row mt-2">
+                    <div class="col-md-6">
+                        <div class="row mb-1">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-3">B1 From</div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1">d</div>
+                                    <div class="col-md-1">d</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">m</div>
+                                    <div class="col-md-1">m</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row mb-1">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">B2 To</div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1">d</div>
+                                    <div class="col-md-1">d</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">m</div>
+                                    <div class="col-md-1">m</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                    <div class="col-md-1">y</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- GROSS EMOLUMENTS -->
+
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">C
+                </div>
+            </div>
+            <div class="col-md-2 p-0">
+                <div class="p-1" style=" background-color: #CDCCCE; font-weight: bold;">GROSS EMOLUMENTS
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row mt-2">
+                            <div class="col-md-5" style="font-size: 13px;">Gross Emoluments (FSS Main or FSS Other
+                                applies)</div>
+                            <div class="col-md-1">C1</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-1"></div> -->
+                            <div class="col-md-3" style="font-size: 14px;">Number of Overtime Hours</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px;">Overtime (Eligible for 15% tax deduction)
+                            </div>
+                            <div class="col-md-1">C1A</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black; margin-left:8px;">&nbsp;
+                                    </div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px;">Director’s Fees</div>
+                            <div class="col-md-1">C1B</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">
+                                <!-- <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px;">Gross Emoluments (FSS Part-time method
+                                applies)</div>
+                            <div class="col-md-1">C2</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-1">Cat1 C5</div> -->
+                            <div class="col-md-3" style="font-size: 14px;">Breakdown of Fringe Benefits</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px;">Fringe Benefits - Excluding Share Options
+                                <span style="font-size: 9px;">(Total of Boxes (C5+C6+C7)-C8)</span>
+                            </div>
+                            <div class="col-md-1">C3</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">Cat1 C5</div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px;">Share Options fringe benefits taxed at 15%
+                            </div>
+                            <div class="col-md-1">C3a</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">Cat2 C6</div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-md-5" style="font-size: 13px; font-weight: bold;">Total Gross Emoluments and
+                                Fringe Benefits</div>
+                            <div class="col-md-1">C4</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">Cat3 C7</div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-9" style="font-size: 13px; text-align: right;">Non Taxable Car Crash
+                                Allowance (50% of Allowance up to a maximum of €1170)</div>
+                            <div class="col-md-1">C8</div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-1 offset-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- TOTAL DEDUCTIONS -->
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">D
+                </div>
+            </div>
+            <div class="col-md-2 p-0">
+                <div class="p-1" style=" background-color: #CDCCCE; font-weight: bold;">TOTAL DEDUCTIONS
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row mt-2">
+                            <div class="col-md-3" style="font-size: 13px;">Tax Deductions (FSS Main or FSS Other)</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2 ml-1">D1</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-1"></div> -->
+                            <div class="col-md-3" style="font-size: 13px;">Tax Arrears Deductions</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2 ml-1">D3</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3" style="font-size: 13px;">Tax Deductions (Eligible Overtime)</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">D1A</div>
+                                    <div class="col-md-1 ml-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-1"></div> -->
+                            <div class="col-md-3" style="font-size: 13px;">15% tax on Share Options</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">D3a</div>
+                                    <div class="col-md-1 ml-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3" style="font-size: 13px;">Tax Deductions (Eligible Overtime)</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">D2</div>
+                                    <div class="col-md-1 ml-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-5" style="font-size: 13px;">NB: If part-time tax is less than the
+                                relative rate the whole
+                                emoluments will be charged at normal rates</div>
+                            <div class="col-md-2" style="font-size: 13px;"></div>
+                            <div class="col-md-2" style="font-size: 13px; font-weight: bold;">Total Tax Deductions</div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2">D4</div>
+                                    <div class="col-md-1 ml-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- SOCIAL SECURITY AND MATERNITY FUND INFORMATION -->
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">E
+                </div>
+            </div>
+            <div class="col-md-5 p-0">
+                <div class="p-1" style=" background-color: #CDCCCE; font-weight: bold;">SOCIAL SECURITY AND MATERNITY
+                    FUND INFORMATION
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="border: 1px solid black; background-color: #CDCCCE;">
+                        <div class="row">
+                            <div class="col-md-3 text-center" style="border-right: 1px solid black;">Basic Weekly Wage
+                            </div>
+                            <div class="col-md-4 text-center" style="border-right: 1px solid black;">Social Security
+                                Contributions</div>
+                            <div class="col-md-3 text-center" style="border-right: 1px solid black;">Maternity
+                                FundContributions</div>
+                            <div class="col-md-2 text-center">Weeks Without Pay</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2"
+                                        style="border: 1px solid black; padding-top: 13px; padding-bottom: 13px;">€
+                                    </div>
+                                    <div class="col-md-2"
+                                        style="border: 1px solid black; padding-top: 13px; padding-bottom: 13px;">C
+                                    </div>
+                                    <div class="col-md-4"
+                                        style="border: 1px solid black; padding-top: 13px; padding-bottom: 13px;">Number
+                                    </div>
+                                    <div class="col-md-4"
+                                        style="border: 1px solid black; padding-top: 13px; padding-bottom: 13px;">
+                                        Category</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                Payee</div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                Payer</div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                Total SSC</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">€</div>
+                                                    <div class="col-md-2">C</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">€</div>
+                                                    <div class="col-md-2">C</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="border-right: 1px solid black;">€</div>
+                                                    <div class="col-md-6">C</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                Payee</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-7" style="border-right: 1px solid black;">€</div>
+                                                    <div class="col-md-5">C</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row" style="border: 1px solid black;">
+                                    <div class="col-md-4"
+                                        style="padding-top: 13px; padding-bottom: 13px; border-right: 1px solid black; text-align: center;">
+                                        From</div>
+                                    <div class="col-md-2"
+                                        style="padding-top: 13px; padding-left: 5px; text-align: center;">To</div>
+                                    <div class="col-md-3"
+                                        style="padding-top: 13px; padding-bottom: 13px; border-left: 1px solid black; text-align: center;">
+                                        Number</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-6">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-7" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-5">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row" style="border: 1px solid black;">
+                                    <div class="col-md-4" style=" text-align: center;">&nbsp;</div>
+                                    <div class="col-md-2" style=" padding-left: 5px; text-align: center;">&nbsp;</div>
+                                    <div class="col-md-3" style=" text-align: center;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-6">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-7" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-5">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row" style="border: 1px solid black;">
+                                    <div class="col-md-4" style=" text-align: center;">&nbsp;</div>
+                                    <div class="col-md-2" style=" padding-left: 5px; text-align: center;">&nbsp;</div>
+                                    <div class="col-md-3" style=" text-align: center;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-2" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                    <div class="col-md-4" style="border: 1px solid black; text-align: center;">&nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-6">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-7" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-5">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row" style="border: 1px solid black;">
+                                    <div class="col-md-4" style=" text-align: center;">&nbsp;</div>
+                                    <div class="col-md-2" style=" padding-left: 5px; text-align: center;">&nbsp;</div>
+                                    <div class="col-md-3" style=" text-align: center;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <!-- <div class="col-md-2" style="text-align: center;">&nbsp;</div>
+                                    <div class="col-md-2" style="text-align: center;">&nbsp;</div>
+                                    <div class="col-md-4" style="text-align: center;">&nbsp;</div> -->
+                                    <div class="col-md-12" style="text-align: end;">Total</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-2" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-2">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-6" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-6">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <div class="col-md-12" style="border: 1px solid black; text-align: center;">
+                                                <div class="row">
+                                                    <div class="col-md-7" style="border-right: 1px solid black;">&nbsp;
+                                                    </div>
+                                                    <div class="col-md-5">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="row">
+                                    <div class="col-md-12">E1</div>
+                                    <!-- <div class="col-md-4" style=" text-align: center;">&nbsp;</div>
+                                    <div class="col-md-2" style=" padding-left: 5px; text-align: center;">&nbsp;</div>
+                                    <div class="col-md-3" style=" text-align: center;">&nbsp;</div> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-1">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <!-- <div class="col-md-1"></div> -->
+                                    <div class="col-md-12" style="border-top: 1px solid black;">
+                                        <div class="row">
+                                            <div class="col-md-6 p-1" style="font-size: 14px;">Voluntary Occupational
+                                                Pension Scheme contribution or payment</div>
+                                            <div class="col-md-1 p-1"></div>
+                                            <div class="col-md-4 p-1">
+                                                <div class="row">
+                                                    <div class="col-md-2">€</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- PAYER INFORMATION -->
+        <div class="row">
+            <div class="col-md-1 p-0">
+                <div class="p-1" style="background-color: black; color: white; text-align: center; font-weight: bold;">F
+                </div>
+            </div>
+            <div class="col-md-2 p-0">
+                <div class="p-1" style=" background-color: #CDCCCE; font-weight: bold;">PAYER INFORMATION
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 p-0" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-4" style="border-right: 1px solid black;">Business Name</div>
+                            <div class="col-md-8">&nbsp;</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="border: 1px solid black;">
+                        <div class="row">
+                            <div class="col-md-4">F1 Payer PE Number</div>
+                            <div class="col-md-8 p-1">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4" style="outline: 1px solid black;">
+                        <div style="font-size: 14px; font-weight: bold;">Business Name
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid black;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4" style="font-weight: bold; outline: 1px solid black;">
+                            <div class="row">
+                                <div class="col-md-12" style="font-size: 14px;">Business Address</div>
+                            </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 12px;">House No.</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 12px;">Street</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black; font-size: 12px;">Locality
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black; font-size: 14px;">Postcode
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 14px;">Telephone Number</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid black; font-size: 14px;">
+
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 14px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 12px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="font-size: 12px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black; font-size: 12px;">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" style="border-bottom: 1px solid black;">
+                                <div class="row">
+                                    <div class="col-md-4">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-2">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black; margin-left: 18px;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4" style="outline: 1px solid black;">
+                        <div style="font-size: 14px; font-weight: bold;">Principal’s Full Name
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid black;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4" style="outline: 1px solid black;">
+                        <div style="font-size: 14px; font-weight: bold;">Principal’s Position
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="outline: 1px solid black;"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4 pb-4" style=" font-size: 14px; padding: 8px; padding-left: 14px; outline: 1px solid black; font-weight: bold;">Principal’s Signature
+                        <!-- <div style="font-size: 14px; padding: 5px; font-weight: bold;">
+                        </div> -->
+                    </div>
+                    <div class="col-md-6 pb-4" style="font-size: 14px; padding: 8px; padding-left: 14px; outline: 1px solid black; font-weight: bold;"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11" style="outline: 1px solid black;">
+                        <div class="row p-1">
+                            <div class="col-md-6" style="font-size:14px;">F1 Payer PE Number</div>
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-2" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row p-1">
+                            <div class="col-md-5" style="font-size:14px;">F2 Date</div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                    <div class="col-md-1" style="outline: 1px solid black;">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5" style="font-size:14px;"></div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-1" style="text-align: center;">d</div>
+                                    <div class="col-md-1" style="text-align: center;">d</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="text-align: center;">m</div>
+                                    <div class="col-md-1" style="text-align: center;">m</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1" style="text-align: center;">y</div>
+                                    <div class="col-md-1" style="text-align: center;">y</div>
+                                    <div class="col-md-1" style="text-align: center;">y</div>
+                                    <div class="col-md-1" style="text-align: center;">y</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="row p-1">
+                            <div class="col-md-12">&nbsp;</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                    <div class="col-md-1">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="row p-1">
+                            <div class="col-md-12">&nbsp;</div>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-md-1">&nbsp;</div>
+                            <div class="col-md-11">
+                                <div class="row">
+                                    <div class="col-md-12" style="font-size: 15px; margin-bottom: 33px;">This form is to be completed in quadruplicate.The original is to be sent to the Office of the Commissionar for Revenue with the FS7.two copies are to be given to the Payee and the other copy is to
+                                        be retained by the Payer.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
